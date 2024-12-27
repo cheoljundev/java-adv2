@@ -114,14 +114,6 @@ public class HttpRequestHandlerV3 implements Runnable{
 
     }
 
-    private static void getSleep(int millis) {
-        try {
-            Thread.sleep(millis); //서버 처리 시간
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
-    }
-
     private static String  requestToString(BufferedReader reader) throws IOException {
         StringBuilder sb = new StringBuilder();
         String line;
