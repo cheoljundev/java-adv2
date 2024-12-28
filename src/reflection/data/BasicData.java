@@ -12,7 +12,7 @@ public class BasicData {
         System.out.println("BasicData.BasicData: " + data);
     }
 
-    private void call() {
+    public void call() {
         System.out.println("BasicData.call");
     }
 
